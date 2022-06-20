@@ -1,3 +1,4 @@
+" for Neovim
 :set number
 :set relativenumber
 :set autoindent
