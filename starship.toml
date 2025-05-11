@@ -1,0 +1,23 @@
+format = """$directory $git_branch$git_status
+$character"""
+
+[directory]
+style = "bold purple"
+format = "[$path]($style) "
+truncation_length = 0
+truncation_symbol = ""
+home_symbol = "~"
+
+[git_branch]
+format = "[$symbol]($style)[\\(($branch)\\)](bold yellow) "
+style = "bold green"
+symbol = "git:"
+
+[git_status]
+format = "[$modified]($style)"
+modified = "±$count"
+style = "bold green"
+
+[character]
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold green)"
