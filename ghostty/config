@@ -1,0 +1,11 @@
+font-size = 15
+font-family = Monaspace Neon Var
+background-opacity = 0.85
+background-blur = true
+window-height = 900
+window-width = 1400
+window-padding-x = 16
+theme = Ayu Mirage
+window-inherit-working-directory = false
+working-directory = /Users/advaitjadhav/Desktop
+
