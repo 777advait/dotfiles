@@ -1,5 +1,15 @@
-format = """$directory $git_branch$git_status
+format = """$python$username$directory$git_branch$git_status
 $character"""
+
+[python]
+format = "[(\\($virtualenv\\) )]($style)"
+style = "bold cyan"
+
+[username]
+style_user = 'white bold'
+format = "($user in)($style) "
+disabled = false
+show_always = true
 
 [directory]
 style = "bold purple"
